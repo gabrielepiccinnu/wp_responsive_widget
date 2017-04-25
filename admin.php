@@ -45,7 +45,7 @@ function wb_or_settings() {
 								<?php echo __( 'CODE STRUCTURE', 'wubook_or' );?> *
 							</td>
 							<td>
-							<input type="text" id="code_s" name="code_s" value="<?php echo get_option( 'wubook_or_widget_code' );?>" required>	
+							<input type="text" id="code_s" name="code_s" value="<?php echo get_option( 'wubook_or_widget_code' );?>" required>
 							</td>
 					</tr>
 					<tr>
@@ -58,12 +58,12 @@ function wb_or_settings() {
 								<?php echo __( 'Preferences RWidget', 'wubook_or' );?>
 							</td>
 							<td>
-							
+
 							<?php
 								preg_match( "/leisure: (.*?),/", $ww, $rwleisure );
 								$rwleisure = $rwleisure[ 1 ];
 								?>
-							
+
 							<div class="wb_box">
 						<select name="rwleisure" class="wp_select">
 							<option value="0" <?php if($rwleisure=='0' ){ echo ' selected="selected"'; }?>>Disabilitata</option>
@@ -74,12 +74,12 @@ function wb_or_settings() {
 										<?php echo __( 'Selection of occupancy', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/lang: '(.*?)',/", $ww, $rwlang );
 								$rwlang = $rwlang[ 1 ];
 								?>
-							
+
 							<div class="wb_box">
 									<select name="rwlang" class="wp_select">
 										<option value="" <?php if($rwlang=='' ){ echo ' selected="selected"'; }?>>
@@ -157,12 +157,12 @@ function wb_or_settings() {
 										<?php echo __( 'Return language', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/default_nights: (.*?),/", $ww, $rwdfn );
 								$rwdfn = $rwdfn[ 1 ];
 								?>
-								
+
 								<div class="wb_box">
 <select name="rwdfn" class="wp_select">
 	<option value="1" <?php if($rwdfn=='1' ){ echo ' selected="selected"'; }?>>1</option>
@@ -201,62 +201,62 @@ function wb_or_settings() {
 										<?php echo __( 'Number of default nights', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/bgcolor: '(.*?)',/", $ww, $rwbg );
 				?>
-								
+
 								<div class="wb_box">
 									<input type='color' name='rwbg' value='<?php echo $rwbg[ 1 ];?>' class="wb_color"/>
 									<span>
 										<?php echo __( 'Background color', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/textcolor: '(.*?)',/", $ww, $rwtxt );
 				?>
-								
+
 								<div class="wb_box">
 									<input type='color' name='rwtxt' value='<?php echo $rwtxt[ 1 ];?>' class="wb_color"/>
 									<span>
 										<?php echo __( 'Text color', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/buttoncolor: '(.*?)',/", $ww, $rwbu );
 				?>
-								
+
 								<div class="wb_box">
 									<input type='color' name='rwbu' value='<?php echo $rwbu[ 1 ];?>' class="wb_color"/>
 									<span>
 										<?php echo __( 'Button color', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/iconcolor: '(.*?)',/", $ww, $rwic );
 				?>
-								
+
 								<div class="wb_box">
 									<input type='color' name='rwic' value='<?php echo $rwic[ 1 ];?>' class="wb_color"/>
 									<span>
 										<?php echo __( 'Color icons', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/bordercolor: '(.*?)',/", $ww, $rwbd );
 				?>
-								
+
 								<div class="wb_box">
 									<input type='color' name='rwbd' value='<?php echo $rwbd[ 1 ];?>' class="wb_color"/>
 									<span>
 										<?php echo __( 'Color border', 'wubook_or' );?>
 									</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/dcode: (.*?),/", $ww, $rwdcode );
 								if ( $rwdcode[ 1 ] == 1 ) {
@@ -265,25 +265,25 @@ function wb_or_settings() {
 									$rwdcode = '';
 								}
 								?>
-								
+
 								<div class="wb_box">
 									<input<?php echo $rwdcode;?> type="checkbox" name="rwdcode" value="yes">
 										<span>
 											<?php echo __( 'Discount codes field', 'wubook_or' );?>
 										</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/dcodeval: '(.*?)',/", $ww, $rwdcodeval );
 				?>
-								
+
 			<div class="wb_box">
 				<input type='text' name='rwdcodeval' value='<?php echo $rwdcodeval[ 1 ];?>'/>
 				<span>
 					<?php echo __( 'Prepare the Discount Code Field with', 'wubook_or' );?>
 				</span>
 			</div>
-						
+
 						<?php
 								preg_match( "/wbgoogle: (.*?),/", $ww, $rwgoogle );
 								if ( $rwgoogle[ 1 ] == 1 ) {
@@ -292,25 +292,25 @@ function wb_or_settings() {
 									$rwgoogle = '';
 								}
 								?>
-							
+
 							<div class="wb_box">
 									<input<?php echo $rwgoogle;?> type="checkbox" name="rwgoogle" value="yes">
 										<span>
 											<?php echo __( 'Google Analytics', 'wubook_or' );?>
 										</span>
 								</div>
-								
+
 								<?php
 								preg_match( "/openParams: '(.*?)',/", $ww, $rwcustom_url );
 				?>
-								
+
 								<div class="wb_box">
 				<input type='text' name='rwcustom_url' value='<?php echo $rwcustom_url[ 1 ];?>'/>
 				<span>
 					<?php echo __( 'Open a custom url', 'wubook_or' );?>
 				</span>
 			</div>
-								
+
 							</td>
 						</tr>
 						<tr>
@@ -318,13 +318,13 @@ function wb_or_settings() {
 								<hr>
 							</td>
 						</tr>
-						
+
 		<tr>
 			<td colspan="2">
 				<button type="submit" class="wb_bu">
 					<i class="fa fa-check" aria-hidden="true"></i> <?php echo __( 'Save', 'wubook_or' );?>
 				</button>
-			
+
 
 
 
@@ -402,12 +402,12 @@ function wb_or_settings() {
 			</div>
 
 			<a href="http://wubook.net/" target="_blank" class="wb_logo">
-		 
+
 		 <img src="<?php echo plugins_url( 'i/logo.jpg', __FILE__ );?>">
-		
+
 		</a>
 
-		
+
 
 
 
@@ -426,7 +426,7 @@ function wb_or_settings() {
 					<td><i class="fa fa-archive" aria-hidden="true"></i>
 						<?php echo __( 'Plugin page', 'wubook_or' );?>
 					</td>
-					<td><a href="https://wordpress.org/plugins/wubook_or/" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i> <?php echo __( 'Open', 'wubook_or' );?></a>
+					<td><a href="https://github.com/wubook/wp_responsive_widget" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i> <?php echo __( 'Open', 'wubook_or' );?></a>
 					</td>
 				</tr>
 				<tr>
