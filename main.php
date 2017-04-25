@@ -11,7 +11,7 @@
 
 if ( !defined( "WPINC" ) ) { die( "WuBook" ); }
 
-function wb_or_($file){ require_once WP_PLUGIN_DIR . '/wp_responsive_widget/' . $file; }
+function wb_or_($file){ require_once WP_PLUGIN_DIR . '/wp_responsive_widget-master/' . $file; }
 
 add_action( 'plugins_loaded', 'wubook_or_init' );
 add_action( 'admin_menu', 'wb_or_menu' );
