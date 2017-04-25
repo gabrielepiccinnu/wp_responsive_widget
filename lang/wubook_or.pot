@@ -1,0 +1,176 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-22 12:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin.php:10
+msgid "Widget settings successfully saved!"
+msgstr ""
+
+#: admin.php:17
+msgid "WuBook widget"
+msgstr ""
+
+#: admin.php:17
+msgid "Online Reception"
+msgstr ""
+
+#: admin.php:35
+msgid "Settings"
+msgstr ""
+
+#: admin.php:38
+msgid "Value"
+msgstr ""
+
+#: admin.php:45
+msgid "CODE STRUCTURE"
+msgstr ""
+
+#: admin.php:58
+msgid "Preferences RWidget"
+msgstr ""
+
+#: admin.php:74
+msgid "Selection of occupancy"
+msgstr ""
+
+#: admin.php:86
+msgid "Automatic detection"
+msgstr ""
+
+#: admin.php:117
+msgid "Language"
+msgstr ""
+
+#: admin.php:157
+msgid "Return language"
+msgstr ""
+
+#: admin.php:201
+msgid "Number of default nights"
+msgstr ""
+
+#: admin.php:212
+msgid "Background color"
+msgstr ""
+
+#: admin.php:223
+msgid "Text color"
+msgstr ""
+
+#: admin.php:234
+msgid "Button color"
+msgstr ""
+
+#: admin.php:245
+msgid "Color icons"
+msgstr ""
+
+#: admin.php:256
+msgid "Color border"
+msgstr ""
+
+#: admin.php:272
+msgid "Discount codes field"
+msgstr ""
+
+#: admin.php:283
+msgid "Prepare the Discount Code Field with"
+msgstr ""
+
+#: admin.php:299
+msgid "Google Analytics"
+msgstr ""
+
+#: admin.php:310
+msgid "Open a custom url"
+msgstr ""
+
+#: admin.php:325
+msgid "Save"
+msgstr ""
+
+#: admin.php:350
+msgid "Shortcode"
+msgstr ""
+
+#: admin.php:353
+msgid "Action"
+msgstr ""
+
+#: admin.php:365
+msgid "Edit"
+msgstr ""
+
+#: admin.php:377
+msgid "Info"
+msgstr ""
+
+#: admin.php:382
+msgid "Click to copy the shortcode and"
+msgstr ""
+
+#: admin.php:384
+msgid "paste to the desired page, template or widget block!"
+msgstr ""
+
+#: admin.php:400
+msgid "Version"
+msgstr ""
+
+#: admin.php:420
+msgid "Our website"
+msgstr ""
+
+#: admin.php:427
+msgid "Plugin page"
+msgstr ""
+
+#: admin.php:429
+msgid "Open"
+msgstr ""
+
+#: admin.php:434
+msgid "Support"
+msgstr ""
+
+#: admin.php:436
+msgid "Send message"
+msgstr ""
+
+#: class.php:17
+msgid "Back"
+msgstr ""
+
+#. Name of the plugin
+msgid "WuBook widget ( Online Reception )"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WuBook widget is a tool for pre-ordering hotels directly on your website"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/wubook/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WuBook"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wubook.net/"
+msgstr ""

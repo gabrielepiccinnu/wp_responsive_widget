@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WuBook widget ( Online Reception )\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-22 12:56+0000\n"
+"PO-Revision-Date: 2017-04-22 13:06+0000\n"
+"Last-Translator: devdfan <devdfan@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: it-IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: admin.php:10
+msgid "Widget settings successfully saved!"
+msgstr "Le impostazioni di Widget sono state salvate con successo!"
+
+#: admin.php:17
+msgid "WuBook widget"
+msgstr "WuBook widget"
+
+#: admin.php:17
+msgid "Online Reception"
+msgstr "Ricezione online"
+
+#: admin.php:35
+msgid "Settings"
+msgstr ""
+"Impostazioni\n"
+
+#: admin.php:38
+msgid "Value"
+msgstr "Valore"
+
+#: admin.php:45
+msgid "CODE STRUCTURE"
+msgstr "CODE STRUCTURE"
+
+#: admin.php:58
+msgid "Preferences RWidget"
+msgstr "Preferenze RWidget"
+
+#: admin.php:74
+msgid "Selection of occupancy"
+msgstr "Selection of occupancy"
+
+#: admin.php:86
+msgid "Automatic detection"
+msgstr "Automatic detection"
+
+#: admin.php:117
+msgid "Language"
+msgstr ""
+"Lingua\n"
+
+#: admin.php:157
+msgid "Return language"
+msgstr "Lingua di ritorno"
+
+#: admin.php:201
+msgid "Number of default nights"
+msgstr "Numero di notti di default"
+
+#: admin.php:212
+msgid "Background color"
+msgstr ""
+"Colore di sfondo\n"
+
+#: admin.php:223
+msgid "Text color"
+msgstr ""
+"Colore del testo\n"
+
+#: admin.php:234
+msgid "Button color"
+msgstr "Colore pulsante"
+
+#: admin.php:245
+msgid "Color icons"
+msgstr "Icone di colore"
+
+#: admin.php:256
+msgid "Color border"
+msgstr "Bordo di colore"
+
+#: admin.php:272
+msgid "Discount codes field"
+msgstr "Campo di codici di sconto"
+
+#: admin.php:283
+msgid "Prepare the Discount Code Field with"
+msgstr "Preparare il campo Codice sconto con"
+
+#: admin.php:299
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin.php:310
+msgid "Open a custom url"
+msgstr "Apri un URL personalizzato"
+
+#: admin.php:325
+msgid "Save"
+msgstr "Salva"
+
+#: admin.php:350
+msgid "Shortcode"
+msgstr ""
+"Codice corto\n"
+
+#: admin.php:353
+msgid "Action"
+msgstr "Azione"
+
+#: admin.php:365
+msgid "Edit"
+msgstr "Modifica"
+
+#: admin.php:377
+msgid "Info"
+msgstr "Info"
+
+#: admin.php:382
+msgid "Click to copy the shortcode and"
+msgstr "Fare clic per copiare il codice corto e"
+
+#: admin.php:384
+msgid "paste to the desired page, template or widget block!"
+msgstr "incollare sulla pagina desiderata, il modello o il blocco widget!"
+
+#: admin.php:400
+msgid "Version"
+msgstr "Versione"
+
+#: admin.php:420
+msgid "Our website"
+msgstr ""
+"Il nostro sito web\n"
+
+#: admin.php:427
+msgid "Plugin page"
+msgstr "Pagina plugin"
+
+#: admin.php:429
+msgid "Open"
+msgstr "Apri"
+
+#: admin.php:434
+msgid "Support"
+msgstr ""
+"Supporto\n"
+
+#: admin.php:436
+msgid "Send message"
+msgstr ""
+"Invia messaggio\n"
+
+#: class.php:17
+msgid "Back"
+msgstr ""
+"Indietro\n"
+
+#. Name of the plugin
+msgid "WuBook widget ( Online Reception )"
+msgstr "WuBook widget ( Online Reception )"
+
+#. Description of the plugin
+msgid ""
+"WuBook widget is a tool for pre-ordering hotels directly on your website"
+msgstr ""
+"WuBook widget is a tool for pre-ordering hotels directly on your website"
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/wubook/"
+msgstr "http://wordpress.org/plugins/wubook/"
+
+#. Author of the plugin
+msgid "WuBook"
+msgstr "WuBook"
+
+#. Author URI of the plugin
+msgid "http://wubook.net/"
+msgstr "http://wubook.net/"
