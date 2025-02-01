@@ -4,7 +4,7 @@
  * Plugin Name: WuBook widget ( Online Reception )
  * Plugin URI: https://github.com/wubook/wp_responsive_widget
  * Description: WuBook widget is a tool for pre-ordering hotels directly on your website
- * Version: 1.0
+ * Version: 1.1
  * Author: WuBook
  * Author URI: http://wubook.net/
  */
