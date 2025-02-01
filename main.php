@@ -11,7 +11,15 @@
 
 if ( !defined( "WPINC" ) ) { die( "WuBook" ); }
 
-function wb_or_($file){ require_once WP_PLUGIN_DIR . '/wp_responsive_widget-master/' . $file; }
+function wb_or_($file) {
+    $file_path = plugin_dir_path(__FILE__) . $file;
+    
+    if (file_exists($file_path)) {
+        require_once($file_path);
+    } else {
+        error_log("Errore: il file $file_path non esiste.");
+    }
+}
 
 add_action( 'plugins_loaded', 'wubook_or_init' );
 add_action( 'admin_menu', 'wb_or_menu' );
